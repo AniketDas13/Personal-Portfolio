@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>Aniket Das</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- -----Header----- -->
+
+    <div id="header" class="parallax">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Aniket</span> Das</h1>
+                <p>Java & MERN Full Stack Developer</p>
+                <p>Professional Cloud Architect</p>
+            </div><a href="#about"><i class="fa-solid fa-chevron-down down-arrow"></i>
+        </div>
+        </a>
+    </div>
+    </div>
+
+    <!-- -----About Me----- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="tab-titles">
+                        <h2 class="sub-title tab-links active-link" onClick="openTab('about-me')">About Me</h2>
+                        <p class="tab-links" onClick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onClick="openTab('education')">Education</p>
+                        <p class="tab-links" onClick="openTab('certifications')">Certifications</p>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <!-- -----About----- -->
+                    <div div class="tab-contents active-tab" id="about-me">
+                        <ul>
+                            <li class="tab-subcontent">
+                                I'm Aniket Das, a <span>Google Certified Professional Cloud Architect</span>,
+                                currently working as an <span>Application Security Engineer</span>
+                                under Google Play Protect, responsible for detecting and reporting any threats or
+                                vulnerabilities in live Android
+                                applications. I've over one and half years of experience in reverse-engineering and
+                                troubleshooting more than 2000
+                                applications, with less than 2% error rate and escalations. Before this, I'd worked as a
+                                <span>Java Full Stack Engineer</span> at
+                                Cognizant.
+                                <br>Since my professional career has revolved around Website/Mobile Application
+                                development
+                                and maintenance, I've got to
+                                learn a lot about the architecture and functionalities of websites and mobile
+                                applications.
+                                I've developed several <a href="#projects">projects</a> ranging from web apps on
+                                Mediclaim Management to Machine
+                                Learning models on Music Genre
+                                Classification throughout my professional and academic career.
+                                <br>Beyond my development expertise, I hold a keen interest in AI and Cloud Computing
+                                technologies, continuously expanding
+                                my knowledge in these areas.
+                                If you have any inquiries or would like to connect, please feel free to <a
+                                    href="#contacts">contact me</a>.
+                                <a href="https://drive.google.com/file/d/1G6ttwGaCyivm_zGAbMgzKquHOuvbAvgf/view?usp=sharing"
+                                    class="btn-2"><span>View Resume</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- -----Experience----- -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Junior Software Engineer</span>
+                                <span class="alignright content-title">2021-Present</span>
+                                <br>
+                                <span>Cognizant</span>
+                                <span class="alignright">Hyderabad, India</span>
+                                <ul>
+                                    <li>Working as a Google Play Protect - Application Security Engineer, responsible
+                                        for detecting and reporting any threats or vulnerabilities in live Android
+                                        applications</li>
+                                    <li>Reverse-engineered over 2000 live applications, with less than 2% error rate
+                                        and escalations</li>
+                                    <li>Reviewed the documentation of fellow analysts as Team QC, substantially
+                                        decreasing the error rate of the team</li>
+                                    <li>Developed NSR (Nano-scorer Review) and documentation for malware apps with
+                                        similar code flow</li>
+                                    <li>Debugged critical production bugs and resolved appeals, ensuring a safe and
+                                        secure user experience</li>
+                                    <li>Worked primarily on DisruptiveAds, VPN AdFrauds, Click Frauds, and Spywares</li>
+                                    <li>Tools & Technologies used: Google Tools, Vulnerability Management, Penetration
+                                        Testing, Android Studio, Core Java</li>
+                                </ul>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Software Engineer Trainee</span>
+                                <span class="alignright content-title">2021</span>
+                                <br>
+                                <span>Cognizant</span>
+                                <span class="alignright">Hyderabad, India</span>
+                                <ul>
+                                    <li>Worked as a Java Full Stck Engineer, designing and developing interactive
+                                        webapps using Spring
+                                        Framework and Restful Web Services</li>
+                                    <li>Developed a Claims Management System performing all CRUD operations and based on
+                                        Microservices Architecture</li>
+                                    <li>Tools & Technologies used: HTML/CSS, Spring Framework, ReSTful Web Services,
+                                        MySQL,
+                                        Microservices, AWS, Core Java</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- -----Education----- -->
+                    <div div class="tab-contents" id="education">
+                        <ul>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Bachelor of Technology in Computer Science and
+                                    Engineering</span>
+                                <span class="alignright content-title">2017-2021</span>
+                                <br>
+                                <span>Techno Main – Salt Lake</span>
+                                <span class="alignright">Kolkata, India</span>
+                                <p><small>GPA: 8.74</small></p>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">CBSE Class XII Boards</span>
+                                <span class="alignright content-title">2015-2016</span>
+                                <br>
+                                <span>Kendriya Vidyalaya</span>
+                                <span class="alignright">Chittaranjan, India</span>
+                                <p><small>Percentage: 78%</small></p>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">CBSE Class X Boards</span>
+                                <span class="alignright content-title">2013-2014</span>
+                                <br>
+                                <span>Kendriya Vidyalaya</span>
+                                <span class="alignright">Chittaranjan, India</span>
+                                <p><small>CGPA: 10.00</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- -----Certifications----- -->
+                    <div div class="tab-contents" id="certifications">
+                        <ul>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Professional Cloud Architect</span>
+                                <span class="alignright content-title">Google</span>
+                                <small><a href="https://www.credential.net/54f21d10-fd07-4e03-806a-7929fe79fa10"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Associate Cloud Engineer</span>
+                                <span class="alignright content-title">Google</span>
+                                <small><a href="https://www.credential.net/88303b52-ae68-411c-8ba5-d3c44cc49142"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">The Complete Web Development Bootcamp</span>
+                                <span class="alignright content-title">Udemy</span>
+                                <small><a
+                                        href="https://www.udemy.com/certificate/UC-cf024c7a-d1d5-4670-bb15-1337752ccab7/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Java and Spring Framework with Spring Boot</span>
+                                <span class="alignright content-title">Udemy</span>
+                                <small><a
+                                        href="https://www.udemy.com/certificate/UC-c94bbbb9-3556-40e4-bf6f-c8e4e05ee019/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">React JS Curriculum [201-Intermediate]</span>
+                                <span class="alignright content-title">Cognizant Academy</span>
+                                <small><a
+                                        href="https://drive.google.com/file/d/1nCkRgf-2Ahvui_lxMulmVMg_dUkGUgY7/view?usp=sharing"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Machine Learning with Python</span>
+                                <span class="alignright content-title">IBM</span>
+                                <small><a
+                                        href="https://courses.cognitiveclass.ai/certificates/73e9732119504be7bd1889b008c584d0"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Sentiment Analysis with Sklearn</span>
+                                <span class="alignright content-title">Coursera</span>
+                                <small><a href="https://coursera.org/share/69d27298ae3830ddd2c77bed681b585d"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Cognizant Cheers Award</span>
+                                <span class="alignright content-title">Cognizant</span>
+                                <small><a
+                                        href="https://drive.google.com/file/d/1NMgutssfDTdzXqYCRnqPw5vjXlxdH2eG/view?usp=sharing"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----Projects----- -->
+
+    <div id="projects">
+        <div class="container">
+            <h2 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/proj_hush.jpg">
+                        <div class="layer">
+                            <h3>Hush - OAuth2.0</h3>
+                            <p>A webapp to post secrets and confessions anonymously, authenticated using OAuth 2.0.</p>
+                            <a href="https://github.com/AniketDas13/Hush-OAuth20"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/proj_cms.jpg">
+                        <div class="layer">
+                            <h3>Claims Management System</h3>
+                            <p>A mediclaim management webapp catering to user requirements by providing them with
+                                services to submit claims, view claim status, and show available policies.</p>
+                            <a href="https://github.com/AniketDas13/Claims-Management-System"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/proj_mgcs.jpg">
+                        <div class="layer">
+                            <h3>Music Genre Classification System</h3>
+                            <p>A classification system designed to predict the genre of any musical track, achieved by
+                                training the machine using CNN.</p>
+                            <a href="https://github.com/AniketDas13/Music-Genre-Classification-System"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/proj_cpp.jpg">
+                        <div class="layer">
+                            <h3>Campus Placement Prediction</h3>
+                            <p>An ML model designed to predict the employability of students, achieved by training the
+                                machine using logistic
+                                regression.</p>
+                            <a href="https://github.com/AniketDas13/Campus-Placement-Prediction"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/AniketDas13?tab=repositories" class="btn-2">View More <i
+                        class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+
+    <!-- -----Contacts----- -->
+
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> aniketdas1301@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 9748263397</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/AniketDas13"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.linkedin.com/in/aniketdas13"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/aniketdas_13"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.instagram.com/aniketdas_13"><i
+                                    class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.facebook.com/aniketdas1301"><i
+                                    class="fa-brands fa-square-facebook"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1G6ttwGaCyivm_zGAbMgzKquHOuvbAvgf/view?usp=sharing"
+                            class="btn-2">View Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form class="form-contact" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-2 btn-other">Submit</button>
+                        <small id="msg"></small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----Footer----- -->
+
+    <div id="copyright">
+        <p>ANIKET DAS &copy;
+            <script>document.write(new Date().getFullYear())</script>
+        </p>
+    </div>
+
+    <button onclick="topFunction()" id="my-btn"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
