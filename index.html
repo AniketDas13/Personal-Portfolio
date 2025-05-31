@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>Aniket Das</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- -----Header----- -->
+
+    <div id="header" class="parallax">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Aniket</span> Das</h1>
+                <p>MTech CS'26 | Indian Statistical Institute, Kolkata</p>
+                <p>AIR 9 IAT CS'24 | 98.55%ile GATE CS'24</p>
+                <p>Ex-SE Cognizant</p>
+                <a href="https://topmate.io/aniketdas13" class="alignright btn-2"><span>Book 1:1 Call</span></a>
+            </div><a href="#about"><i class="fa-solid fa-chevron-down down-arrow"></i>
+        </div>
+        </a>
+    </div>
+    </div>
+
+    <!-- -----About Me----- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="tab-titles">
+                        <h2 class="sub-title tab-links active-link" onClick="openTab('about-me')">About Me</h2>
+                        <p class="tab-links" onClick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onClick="openTab('education')">Education</p>
+                        <p class="tab-links" onClick="openTab('certifications')">Achievements &amp; Certifications</p>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <!-- -----About----- -->
+                    <div div class="tab-contents active-tab" id="about-me">
+                        <ul>
+                            <li class="tab-subcontent">
+                                I'm Aniket Das, currently pursuing <span>Master of Technology</span> in <span>Computer
+                                    Science</span> at <span><a href="https://www.isical.ac.in/">Indian
+                                        Statistical Institute,
+                                        Kolkata</a></span>. Previously, I was
+                                working as a Software Engineer in Java Development profile at Cognizant. I've around 3
+                                years of experience in
+                                development, security, access, and vulnerability management. Additionally, I've worked
+                                as an Application Security
+                                Engineer under Google Play Protect, responsible for reverse-engineering and reporting
+                                vulnerabilities in live Android
+                                applications. I hold 2x Google Cloud Platform certification as a Professional Cloud
+                                Architect.
+                                <br>Since my professional career has revolved around application development and
+                                maintenance, I've got to learn a lot about
+                                the architecture and functionalities of websites and mobile applications. Beyond my
+                                development expertise, I hold a keen
+                                interest in Machine Learning & Data Sciences, continuously expanding my knowledge in
+                                these areas as a student at ISIK.
+                                <br>If you have any inquiries or would like to connect, please feel free to <a
+                                    href="#contacts">contact me</a>, or <a href="https://topmate.io/aniketdas13">book a
+                                    call</a>.
+                                <a href="https://drive.google.com/file/d/1G6ttwGaCyivm_zGAbMgzKquHOuvbAvgf/view?usp=sharing"
+                                    class="btn-2"><span>View Resume</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- -----Experience----- -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Jr. Software Engineer</span>
+                                <span class="alignright content-title">2022-2023</span>
+                                <br>
+                                <span>Cognizant</span>
+                                <span class="alignright">Hyderabad, India</span>
+                                <ul>
+                                    <li>Developed a Custom Identity Provider – eSign Login Application for a renowned US
+                                        based biopharmaceutical company.</li>
+                                    <li>The Custom IdP acts as a one stop solution to the client applications for
+                                        authentication and authorization of its employees and partners, irrespective of
+                                        the IAM services or protocols used.</li>
+                                    <li>It supports industry standard protocols like OIDC, SAML, WS-Fed, and IAM
+                                        services like Okta, PingFederate, TruU to provide a seamless Single Sign-On
+                                        experience to user, and can be customized as per client requirements.</li>
+                                    <li>Tools & Technologies: Spring Framework, ReSTful Web Services, OIDC, SAML,
+                                        WS-Fed, Okta, TruU, AD, Core Java.</li>
+                                </ul>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Software Engineer Trainee (GenC Next)</span>
+                                <span class="alignright content-title">2021-2022</span>
+                                <br>
+                                <span>Cognizant</span>
+                                <span class="alignright">Hyderabad, India</span>
+                                <ul>
+                                    <li>Worked as a Google Play Protect - Application Security Engr., rev. engg. and
+                                        reporting over 2000+ live apps.</li>
+                                    <li>Developed NSR (Nano-scorer Review) and reviewed documentations of fellow
+                                        analysts as Team QC.</li>
+                                    <li>Debugged critical production bugs and resolved appeals on DisruptiveAds, VPN
+                                        AdFrauds, Spywares, etc.</li>
+                                    <li>Tools & Technologies: Google Tools, Vulnerability Mgmt., Penetration
+                                        Testing, Reverse Engg., GCP, Core Java.</li>
+                                </ul>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Software Engineer Trainee (Intern)</span>
+                                <span class="alignright content-title">2021</span>
+                                <br>
+                                <span>Cognizant</span>
+                                <span class="alignright">Hyderabad, India</span>
+                                <ul>
+                                    <li>Developed an interactive Claims Management System performing CRUD operations
+                                        using Spring and ReSTful APIs.</li>
+                                    <li>Tools & Technologies: Spring Framework, ReSTful Web Services, MySQL,
+                                        Microservices, GCP, AWS, Core Java.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- -----Education----- -->
+                    <div div class="tab-contents" id="education">
+                        <ul>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Master of Technology in Computer Science</span>
+                                <span class="alignright content-title">2024-Present</span>
+                                <br>
+                                <span>Indian Statistical Institute</span>
+                                <span class="alignright">Kolkata, India</span>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Bachelor of Technology in Computer Science &amp;
+                                    Engineering</span>
+                                <span class="alignright content-title">2017-2021</span>
+                                <br>
+                                <span>Techno Main – Salt Lake</span>
+                                <span class="alignright">Kolkata, India</span>
+                                <p><small>GPA: 8.74</small></p>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">CBSE Senior School Certificate Examination (Class
+                                    XII)</span>
+                                <span class="alignright content-title">2015-2016</span>
+                                <br>
+                                <span>Kendriya Vidyalaya</span>
+                                <span class="alignright">Chittaranjan, India</span>
+                                <p><small>Percentage: 78%</small></p>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">CBSE Secondary School Examination (Class X)</span>
+                                <span class="alignright content-title">2013-2014</span>
+                                <br>
+                                <span>Kendriya Vidyalaya</span>
+                                <span class="alignright">Chittaranjan, India</span>
+                                <p><small>CGPA: 10.00</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- -----Certifications----- -->
+                    <div div class="tab-contents" id="certifications">
+                        <ul>
+                            <li class="tab-subcontent">
+                                <span class="content-title">ISI Admission Test Merit List (AIR 9)</span>
+                                <span class="alignright content-title">ISI Kolkata</span>
+                                <small><a
+                                        href="https://drive.google.com/file/d/1b-3qhKRHHG6F9i3-mtvIsE8ikZW4icLv/view?usp=sharing"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">GATE Score Card (98.55%ile)</span>
+                                <span class="alignright content-title">IISc Bangalore</span>
+                                <small><a
+                                        href="https://drive.google.com/file/d/1jcXoYALwTGJel3eTGuipOaMPR3FnSrVO/view?usp=sharing"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Professional Cloud Architect</span>
+                                <span class="alignright content-title">Google</span>
+                                <small><a href="https://www.credential.net/54f21d10-fd07-4e03-806a-7929fe79fa10"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Associate Cloud Engineer</span>
+                                <span class="alignright content-title">Google</span>
+                                <small><a href="https://www.credential.net/88303b52-ae68-411c-8ba5-d3c44cc49142"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Master SAML 2.0 with Okta</span>
+                                <span class="alignright content-title">Udemy</span>
+                                <small><a
+                                        href="https://www.udemy.com/certificate/UC-7443a737-bb07-4431-99a7-796e95b5b508/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">The Complete Web Development Bootcamp</span>
+                                <span class="alignright content-title">Udemy</span>
+                                <small><a
+                                        href="https://www.udemy.com/certificate/UC-cf024c7a-d1d5-4670-bb15-1337752ccab7/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Java and Spring Framework with Spring Boot</span>
+                                <span class="alignright content-title">Udemy</span>
+                                <small><a
+                                        href="https://www.udemy.com/certificate/UC-c94bbbb9-3556-40e4-bf6f-c8e4e05ee019/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Machine Learning with Python</span>
+                                <span class="alignright content-title">IBM</span>
+                                <small><a
+                                        href="https://courses.cognitiveclass.ai/certificates/73e9732119504be7bd1889b008c584d0"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Sentiment Analysis with Sklearn</span>
+                                <span class="alignright content-title">Coursera</span>
+                                <small><a href="https://coursera.org/share/69d27298ae3830ddd2c77bed681b585d"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                            <li class="tab-subcontent">
+                                <span class="content-title">Cognizant Cheers Award</span>
+                                <span class="alignright content-title">Cognizant</span>
+                                <small><a
+                                        href="https://drive.google.com/file/d/1NMgutssfDTdzXqYCRnqPw5vjXlxdH2eG/view?usp=sharing"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a></small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----Projects----- -->
+
+    <div id="projects">
+        <div class="container">
+            <h2 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/proj_hush.jpg">
+                        <div class="layer">
+                            <h3>Hush - OAuth2.0</h3>
+                            <p>A webapp to post secrets and confessions anonymously, authenticated using OAuth 2.0.</p>
+                            <a href="https://github.com/AniketDas13/Hush-OAuth20"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/proj_cms.jpg">
+                        <div class="layer">
+                            <h3>Claims Management System</h3>
+                            <p>A mediclaim management webapp catering to user requirements by providing them with
+                                services to submit claims, view claim status, and show available policies.</p>
+                            <a href="https://github.com/AniketDas13/Claims-Management-System"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/proj_mgcs.jpg">
+                        <div class="layer">
+                            <h3>Music Genre Classification System</h3>
+                            <p>A classification system designed to predict the genre of any musical track, achieved by
+                                training the machine using CNN.</p>
+                            <a href="https://github.com/AniketDas13/Music-Genre-Classification-System"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/proj_cpp.jpg">
+                        <div class="layer">
+                            <h3>Campus Placement Prediction</h3>
+                            <p>An ML model designed to predict the employability of students, achieved by training the
+                                machine using logistic
+                                regression.</p>
+                            <a href="https://github.com/AniketDas13/Campus-Placement-Prediction"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/AniketDas13?tab=repositories" class="btn-2">View More <i
+                        class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+
+    <!-- -----Contacts----- -->
+
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> aniketdas1301@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 9748263397</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/AniketDas13"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.linkedin.com/in/aniketdas13"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/aniketdas_13"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.instagram.com/aniketdas_13"><i
+                                    class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.facebook.com/aniketdas1301"><i
+                                    class="fa-brands fa-square-facebook"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1G6ttwGaCyivm_zGAbMgzKquHOuvbAvgf/view?usp=sharing"
+                            class="btn-2">View Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form class="form-contact" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-2 btn-other">Submit</button>
+                        <small id="msg"></small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----Footer----- -->
+
+    <div id="copyright">
+        <p>ANIKET DAS &copy;
+            <script>document.write(new Date().getFullYear())</script>
+        </p>
+    </div>
+
+    <button onclick="topFunction()" id="my-btn"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
